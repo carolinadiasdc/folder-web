@@ -1,2 +1,2 @@
 # folder-web
- Creating a folder for a website
+ Exercise proposed by Alura in the course: HTML and CSS: Classes, positioning and Flexbox
