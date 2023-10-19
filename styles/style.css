@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria:#F6F6F6;
-    --cor-terciaria: #22d4FD;
+    --cor-primaria: #2C3639;
+    --cor-secundaria:#DCD7C9;
+    --cor-terciaria: #A27B5C;
     --cor-hover: #272727;
 
     --font-primaria: 'Krona One', sans-serif;
@@ -34,14 +34,14 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600px;
     color: var(--cor-terciaria);
     text-decoration:none ;
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +56,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family:var(--font-primaria);
 }
 
@@ -68,18 +68,20 @@ body {
 .apresentacao__conteudo__paragrafo {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
+    text-align: justify;
+   
 }
 
 .apresentacao__links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
     justify-content: space-between;
     align-items: center;
     gap: 32px;
 }
 
 .apresentacao__links__subtitulo {
-    font-family: var(--font-primaria);
+    font-family: var(--font-primaria);   
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -96,7 +98,7 @@ body {
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0; 
+    padding: 21.5px; 
     text-decoration: none;
     color: var(--cor-secundaria);
 }
@@ -107,6 +109,17 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
+    
+}
+
+.apresentacao__imagem__linkedin {
+    height: 30px;
+    width: 30px;
+}
+
+.apresentacao__imagem__github {
+    height: 30px;
+    width: 30px;
 }
 
 .rodape {
@@ -121,6 +134,7 @@ body {
 }
 
 @media (max-width: 1200px) {
+
     .cabecalho {
         padding: 10%;
     }
@@ -136,5 +150,9 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .apresentacao__links_navegacao {
+        width: auto;
+    }   
 
 }
